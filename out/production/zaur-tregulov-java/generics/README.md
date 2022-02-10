@@ -48,7 +48,7 @@ String o = list1.get(0);
 ```
 `String o =(String)list1.get(0)` тут сперва возвращается Object потом он кастится до
 String и присваивается переменной
-###Проблема overloading'а
+### Проблема overloading'а
 ```java
 class Info<T> {
     public void abc(Info<String> info) {
@@ -63,7 +63,7 @@ class Info<T> {
 
 Ошибка, поскольку JVM видит два метода с одинаковой сигнатурой
 `abc(Info info)`
-###Проблема overriding'a 
+### Проблема overriding'a 
 ```java
 class Parent {
     public void abc(Info<String> info) {
